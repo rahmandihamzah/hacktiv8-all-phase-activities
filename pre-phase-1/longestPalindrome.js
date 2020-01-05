@@ -44,7 +44,6 @@ function longestPalindrome(str) {
       // console.log('ini temp ' + tempStr + '\n============');
 
       if (newStr1 === tempStr) {
-        // console.log(newStr);
         if (newStr1.length > longestPalindromeResult.length) {
           longestPalindromeResult = newStr1;
         }
